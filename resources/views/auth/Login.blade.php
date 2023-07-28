@@ -21,7 +21,7 @@
                 @csrf
                 <div class="mb-4">
                     <div class="form-group">
-                        <input type="text" name="name" value="{{ old('name') }}" class="form-control" id="" placeholder="Name" @error('name') style="border-color:red;" @enderror>
+                        <input type="text" name="name" value="{{ old('name') }}" class="form-control" id="" placeholder="Name" @error('name') style="border-color:rgb(240, 17, 17);" @enderror>
                         <span class="text-danger float-start">
                             @error('name') {{ $message }}                            
 @enderror
